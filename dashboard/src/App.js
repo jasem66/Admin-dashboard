@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import './App.css'
+// import './App.css'
 function App() {
   const [time, settime] = useState(0)
   const [timerOn, settimerOn] = useState(false)
