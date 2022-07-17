@@ -36,24 +36,3 @@
     transform: rotate(360deg);
   }
 }
-.container{
-text-align: center;
-}
-.time{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 100px;
-}
-.btn{
-  color: rgb(241, 236, 247);
-  margin-right: 10px;
-  background-color: blueviolet;
-  border-radius: 5px;
-  border: none;
-  padding:5px 20px;
-
-}
-p{
-  font-size: 50px;
-}

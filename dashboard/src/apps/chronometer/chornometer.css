@@ -1,0 +1,65 @@
+:root {
+  --primary: #0b0791;
+  --secondary: #8006ac;
+  --dark: #070707;
+  --light: #f2f0f2;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.chornometerTitle{
+  text-align: center;
+padding-top: 60px;
+    min-height: 10vh;
+    background-color: var(--dark);
+    color: var(--light);
+    font-weight: lighter;
+    margin-bottom: -25px;
+  
+
+}
+.container{
+  display: flex;
+  min-height: 90vh;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--dark)
+}
+.row{
+ border-radius: 20px;
+ height: 50vh;
+ width: 60%;
+ padding: 50px;
+ background-color: var(--primary)
+}
+.time{
+ margin: auto;
+
+  height: 60%;
+ text-align: center;
+margin-bottom: 1rem;
+
+}
+.timeItem{
+ color: var(--light);
+  font-size: 50px;
+  font-weight: lighter;
+ 
+}
+.btn{
+
+  color: var(--light);
+  margin-right: 10px;
+  background-color: var(--secondary);
+  border-radius: 5px;
+  border: none;
+  padding:5px 20px;
+
+}
+.buttonContainer{
+ height: 50%;
+ text-align: center;
+}

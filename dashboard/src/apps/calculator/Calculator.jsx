@@ -1,5 +1,5 @@
 import React from 'react'
-import './calculator.css'
+import '../calculator/calculator.css'
 import { useState } from 'react'
 function Calculator() {
   const [calc, setCalc] = useState('')
@@ -45,24 +45,27 @@ function Calculator() {
   }
 
   return (
-    <div className='app'>
-      <div className='calculator'>
-        <div className='display'>
-          {result ? <span>{result}</span> : ''} {calc || '0'}
-        </div>
+    <div>
+      <h2 id='CALCULTOR'>CALCULTOR</h2>
+      <div className='app'>
+        <div className='calculator'>
+          <div className='display'>
+            {result ? <span>{result}</span> : ''} {calc || '0'}
+          </div>
 
-        <div className='operator'>
-          <button onClick={() => updateCalc('/')}>/</button>
-          <button onClick={() => updateCalc('*')}>*</button>
-          <button onClick={() => updateCalc('+')}>+</button>
-          <button onClick={() => updateCalc('-')}>-</button>
-          <button onClick={del}>DEL</button>
-        </div>
-        <div className='digits'>
-          {createDigits()}
-          <button onClick={() => updateCalc('0')}>0</button>
-          <button onClick={() => updateCalc('.')}>.</button>
-          <button onClick={calcualte}>=</button>
+          <div className='operator'>
+            <button onClick={() => updateCalc('/')}>/</button>
+            <button onClick={() => updateCalc('*')}>*</button>
+            <button onClick={() => updateCalc('+')}>+</button>
+            <button onClick={() => updateCalc('-')}>-</button>
+            <button onClick={del}>DEL</button>
+          </div>
+          <div className='digits'>
+            {createDigits()}
+            <button onClick={() => updateCalc('0')}>0</button>
+            <button onClick={() => updateCalc('.')}>.</button>
+            <button onClick={calcualte}>=</button>
+          </div>
         </div>
       </div>
     </div>

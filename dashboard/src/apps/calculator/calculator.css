@@ -10,12 +10,21 @@
   box-sizing: border-box;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
 body {
   background-color: var(--light);
 }
+h2{
+  text-align: center;
+padding-top: 60px;
+    min-height: 10vh;
+
+}
+
 .app {
   display: flex;
-  min-height: 100vh;
+    min-height: 90vh;
+
   align-items: center;
   justify-content: center;
 }
@@ -25,7 +34,7 @@ body {
   background-color: rgb(255, 255, 255);
   border-radius: 10px;
   box-shadow: 10px #1f1c1f;
-  /* overflow: hidden; */
+  overflow: hidden;
 }
 .display {
   color: var(--light);
@@ -58,7 +67,7 @@ button:hover{
 }
 .operator button{
  flex: 1 1 0%;
- background-color: var(--primary);
+ background-color: var(--secondary);
  font-weight: 700;
 }
 
