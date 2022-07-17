@@ -46,7 +46,7 @@ function Calculator() {
 
   return (
     <div>
-      <h2 id='CALCULTOR'>CALCULTOR</h2>
+      <h2 id='CALCULTOR'>CALCULATOR</h2>
       <div className='app'>
         <div className='calculator'>
           <div className='display'>

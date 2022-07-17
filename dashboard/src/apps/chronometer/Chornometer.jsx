@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState, useEffect } from 'react'
 import '../chronometer/chornometer.css'
-function Chornometer() {
+function Chronometer() {
   const [time, settime] = useState(0)
   const [timerOn, settimerOn] = useState(false)
   useEffect(() => {
@@ -18,8 +18,8 @@ function Chornometer() {
 
   return (
     <div>
-      <h2 className='chornometerTitle' id='CHORNOMETER' >
-        CHORNOMETER
+      <h2 className='chronometerTitle' id='Chronometer '>
+        Chronometer
       </h2>
       <div className='container'>
         <div className='row'>
@@ -84,4 +84,4 @@ function Chornometer() {
   )
 }
 
-export default Chornometer
+export default Chronometer 
